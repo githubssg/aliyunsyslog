@@ -23,8 +23,8 @@ import com.aliyun.openservices.log.response.ListTopicsResponse;
 
 class ClientSample {
 	private final String endPoint = "cn-beijing.log.aliyuncs.com";
-	private final String akId = "LTAImJgjJ3F6p4qM";
-	private final String ak = "jhv0w2Heddxh8mmil20PoY2CQZ2ip7";
+	private final String akId = "";
+	private final String ak = "";
 	private final Client client = new Client(endPoint, akId, ak);
 	private final String project = "ssm";
 	private final String logStore = "ssm_logstore";
